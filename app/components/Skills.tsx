@@ -209,7 +209,7 @@ export default function Skills() {
                   <div
                     key={skill.name}
                     data-skill={skill.name} // Added data attribute for the observer
-                    className="skill-card opacity-0 scale-95 transition-all duration-500 modern-card p-6 group hover:scale-105 spotlight cursor-pointer relative"
+                    className="skill-card transition-all duration-500 modern-card p-6 group hover:scale-105 spotlight cursor-pointer relative"
                     style={{
                       transitionDelay: `${categoryIndex * 100 + index * 50}ms`,
                     }}

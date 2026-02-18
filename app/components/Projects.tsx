@@ -38,7 +38,7 @@ const projects: Project[] = [
     gradient: "from-cyan-500 via-blue-500 to-indigo-500",
     icon: "📈",
     github: "https://github.com/abbas56fares/HabitFlow",
-    // demo: "https://habitflow.netlify.app",
+    demo: "https://ezhabitflow.netlify.app/login",
   },
   {
     title: "Café Website with Online Ordering & Offline POS",
@@ -127,7 +127,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className="project-card opacity-0 translate-y-10 transition-all duration-700 glass modern-card p-6 spotlight group hover:scale-[1.02] flex flex-col"
+              className="project-card transition-all duration-700 glass modern-card p-6 spotlight group hover:scale-[1.02] flex flex-col"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               {/* Icon */}

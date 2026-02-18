@@ -51,7 +51,7 @@ export default function About() {
         {/* Bento Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
           {/* Stats Card - Tall */}
-          <div className="reveal-card opacity-0 translate-y-10 transition-all duration-700 lg:row-span-2 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
+          <div className="reveal-card transition-all duration-700 lg:row-span-2 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
             <div className="h-full flex flex-col justify-between">
               <div>
                 <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-indigo-500 to-purple-500 flex items-center justify-center mb-6 mx-auto">
@@ -86,7 +86,7 @@ export default function About() {
           </div>
 
           {/* Bio Card - Wide */}
-          <div className="reveal-card opacity-0 translate-y-10 transition-all duration-700 delay-100 lg:col-span-2 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
+          <div className="reveal-card transition-all duration-700 delay-100 lg:col-span-2 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
             <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-purple-500 to-pink-500 flex items-center justify-center mb-6 mx-auto">
               <span className="text-3xl">👨‍💻</span>
             </div>
@@ -101,7 +101,7 @@ export default function About() {
           </div>
 
           {/* Education Card */}
-          <div className="reveal-card opacity-0 translate-y-10 transition-all duration-700 delay-200 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
+          <div className="reveal-card transition-all duration-700 delay-200 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
             <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-pink-500 to-red-500 flex items-center justify-center mb-6 mx-auto">
               <span className="text-3xl">🎓</span>
             </div>
@@ -115,7 +115,7 @@ export default function About() {
           </div>
 
           {/* What I Do Card */}
-          <div className="reveal-card opacity-0 translate-y-10 transition-all duration-700 delay-300 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
+          <div className="reveal-card transition-all duration-700 delay-300 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
             <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-indigo-500 to-blue-500 flex items-center justify-center mb-6 mx-auto">
               <span className="text-3xl">⚡</span>
             </div>
@@ -135,7 +135,7 @@ export default function About() {
           </div>
 
           {/* Interests Card */}
-          <div className="reveal-card opacity-0 translate-y-10 transition-all duration-700 delay-400 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
+          <div className="reveal-card transition-all duration-700 delay-400 modern-card p-8 spotlight group hover:scale-[1.02] text-center">
             <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-purple-500 to-indigo-500 flex items-center justify-center mb-6 mx-auto">
               <span className="text-3xl">🚀</span>
             </div>
