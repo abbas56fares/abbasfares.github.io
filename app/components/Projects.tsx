@@ -38,7 +38,7 @@ const projects: Project[] = [
     gradient: "from-cyan-500 via-blue-500 to-indigo-500",
     icon: "📈",
     github: "https://github.com/abbas56fares/HabitFlow",
-    demo: "https://ezhabitflow.netlify.app/login",
+    demo: "https://ezhabitflow.netlify.app/",
   },
   {
     title: "Café Website with Online Ordering & Offline POS",
@@ -47,7 +47,8 @@ const projects: Project[] = [
     tech: ["HTML", "CSS", "JavaScript", "PHP", "POS System"],
     gradient: "from-orange-500 via-red-500 to-yellow-500",
     icon: "☕",
-    // github: "https://github.com/abbas56fares/",
+    github: "https://github.com/abbas56fares/menu",
+    demo: "https://issacaffee.netlify.app/",
   },
   {
     title: "Chatbot using Python",
@@ -89,6 +90,10 @@ export default function Projects() {
           if (entry.isIntersecting) {
             entry.target.classList.add("opacity-100", "translate-y-0");
             entry.target.classList.remove("opacity-0", "translate-y-10");
+          }
+          else {
+             entry.target.classList.remove("opacity-100", "translate-y-0");
+            entry.target.classList.add("opacity-0", "translate-y-10");
           }
         });
       },
